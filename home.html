@@ -1,29 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test</title>
-    <script src="String/string.js"></script>
+    <script src="assets/js/number.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <div class="header">
+
         <h1>Hello World!</h1>
         Nhập tên : <input id="inputName" value>
         <br>
-        <button onclick="handleClickOK()">   
+        <button onclick="handleClickOK()">
             OK
         </button>
         <button onclick="print_a()">
             Print
         </button>
+
     </div>
     <div id="hello_name"></div>
     <div id="thong_bao"></div>
     <div id="test"></div>
     <div id="print_a">
-
-
+        <button onclick="displayDate()">The time ?</button>
+    </div>
+    <div id="demo">
+        <h1>Time......</h1>
+        <button onclick="this.innerHTML = Date()">
+            The Time is ?
+        </button>
     </div>
 </body>
+
 </html>
