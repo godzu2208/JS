@@ -14,7 +14,3 @@ console.log("z = ",z, "|", "z = ",typeof z);
 // Trong JS, các kiểu dữ liệu luôn cố gắng convert sang kiểu dữ liệu số để thực hiện phép tính
 
 
-function displayDate() {
-    console.log(Date());
-    document.getElementById('test').innerHTML = Date();
-}

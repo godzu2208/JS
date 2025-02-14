@@ -5,13 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test</title>
-    <script src="assets/js/number.js"></script>
+    <!-- <script src="assets/js/object.js"></script> -->
+    <!-- <script src="String/string.js"></script> -->
+    <script src="https://kit.fontawesome.com/e5b25c7ce4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <div class="header">
-
+        <div id="home">
+            <button onclick="backHome()">
+                <i class="fa-solid fa-house"></i>
+                Home
+            </button>
+        </div>
         <h1>Hello World!</h1>
         Nhập tên : <input id="inputName" value>
         <br>
@@ -23,7 +30,27 @@
         </button>
 
     </div>
-    <div id="hello_name"></div>
+    <div id="username">
+
+    </div>
+    <div id="hello_name">
+        <button onclick="displayPersonInfo(person)">
+            Add Person
+        </button>
+    </div>
+
+    <div id="hello_name2">
+        <button onclick="displayPersonInfo2(person)">
+            Add Person 2
+        </button>
+    </div>
+
+    <div id="hello_name3">
+        <button onclick="displayP3(person)">
+            Add Person 3
+        </button>
+    </div>
+
     <div id="thong_bao"></div>
     <div id="test"></div>
     <div id="print_a">
@@ -36,5 +63,6 @@
         </button>
     </div>
 </body>
+<script src="assets/js/object.js"></script>
 
 </html>
